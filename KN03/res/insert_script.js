@@ -52,14 +52,14 @@ db.menu_item.insertMany([
         name: "Mozzarella Sticks",
         desc: "Crispy and cheesy mozzarella sticks served with marinara sauce",
         price: 5.50,
-        category: [cat_1]
+        category: [cat_1, cat_2]
     },
     {
         _id: menu_item_2,
         name: "French Fries",
         desc: "Golden, crispy French fries",
         price: 3.00,
-        category: [cat_2]
+        category: [cat_2, cat_1]
     },
     {
         _id: menu_item_3,
@@ -87,7 +87,7 @@ db.menu_item.insertMany([
         name: "Ranch Dip",
         desc: "Creamy ranch dip",
         price: 1.00,
-        category: [cat_6]
+        category: [cat_6, cat_2]
     }
 ]);
 
