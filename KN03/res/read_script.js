@@ -2,7 +2,6 @@ db.customers.find()
 
 db.customers.find({ "Order.date": { $gt: new Date("2024-03-01") } }).toArray();
 
-//doesn`t work
 db.customers.find({ $or: [{ name: "John Doe" }, { "email": "john.doe@gmail.com" }], });
 
 db.customers.find({
